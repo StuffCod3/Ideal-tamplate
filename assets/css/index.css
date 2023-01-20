@@ -146,10 +146,10 @@ ul, li, a{
 
 .request_block{
     width: 400px;
-    height: 500px;
+    height: 540px;
     background-color: white;
     border-radius: 20px;
-    margin-right: 60px;
+    margin-right: 40px;
 }
 
 .request_block h1{
@@ -163,4 +163,67 @@ ul, li, a{
     text-align: center;
     color: #B0B0B0;
     font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.forms{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block{
+    margin-bottom: 16px;
+}
+
+.block:last-child{
+    margin-bottom: 0;
+}
+
+.block p{
+    color: #252525;
+    font-size: 16px;
+    text-align: start;
+    margin-bottom: 8px;
+}
+
+.block_input{
+    width: 300px;
+    height: 50px;
+    padding: 12px 20px;
+    border: 2px solid #B0B0B0;
+    border-radius: 10px;
+    color: #252525;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.button_form{
+    width: 170px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+}
+
+.send_btn{
+    padding: 10px 45px;
+    background-color: #FB7F26;
+    border-radius: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 16;
+    box-shadow: 0px 4px 4px 0px #00000028;
+    border: none;
+}
+
+.send_btn:hover{
+    background-color: #252525;
+    color: white;
+    transition: .3s;
+}
+
+.send_btn:not(:hover){
+    background-color: #FB7F26;
+    color: white;
+    transition: .3s;
 }
